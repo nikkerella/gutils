@@ -1,4 +1,4 @@
-module github.com/nikkerella
+module github.com/nikkerella/gutils
 
 go 1.21.6
 
