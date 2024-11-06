@@ -8,10 +8,8 @@ import (
 func ObjID(hex string) primitive.ObjectID {
 	// Attempt to convert the hex string to an ObjectID
 	objID, err := primitive.ObjectIDFromHex(hex)
-
 	if err != nil {
 		return primitive.NilObjectID
 	}
-
 	return objID
 }
